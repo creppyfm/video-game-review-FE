@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto Serif', Montserrat, Helvetica, sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  padding:0;
+  margin:0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
+  background-color: black;
+  color:white;
+  margin-top:10px;
 }
 
-.App-link {
-  color: #61dafb;
+.game-header-button {
+  padding:0px;
+  margin: 1rem;;
+  font-size: 1rem !important;
+  transition: 0.3s !important;
+  cursor: pointer !important;
+  background-color: rgb(64, 160, 62, 0.815) !important;
+  border: none !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.game-header-button:hover{
+  font-size: 1rem !important;
+  color:rgb(255, 255, 255, 0.815) !important;
 }
+
+
+.game-review-button {
+  padding:0px;
+  margin:0px;
+  font-size: 1.5rem !important;
+  transition: 0.3s !important;
+  cursor: pointer !important;
+  background-color: rgb(64, 160, 62, 0.815) !important;
+  border: none !important;
+}
+
+.game-review-button:hover{
+  font-size: 2rem !important;
+  color:rgb(255, 255, 255, 0.815) !important;
+}
+
