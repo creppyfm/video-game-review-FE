@@ -1,6 +1,6 @@
 import axios from 'axios';
 
 export default axios.create({
-    baseURL:'https://notsteam.games', 
+    baseURL:'https://api.notsteam.games', 
     headers: {"ngrok-skip-browser-warning": "true"}
 })
