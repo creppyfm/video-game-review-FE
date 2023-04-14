@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# NotSteam - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub top language](https://img.shields.io/github/languages/top/creppyfm/video-game-review-FE?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/creppyfm/video-game-review-FE?style=plastic)
 
-## Available Scripts
+## Frontend React web application for NotSteam.games- a video game review web app that allows users to review popular video games.
 
-In the project directory, you can run:
+<img src="README_Images/home_skyrim.png" alt="Skyrim home page" width="auto">
 
-### `npm start`
+NotSteam.games is a video game review web app built to allow users to share their opinions on popular video games. 
+This React web application is built with JavaScript, React + Material UI, and Bootstrap, leverages Caddy HTTPS server, and uses Axios HTTP to communicate with the backend api.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Authentication
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Visitors to the site can log in using Google OAuth one-click login.
 
-### `npm test`
+<img src="README_Images/googlel_oauth_present_on_FE.png" alt="Google OAuth Example" width="500">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Cloud Services
 
-### `npm run build`
+The application is deployed to Vercel, and is redeployed with every merge to main.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="README_Images/embedded_youtube_trailer.png" alt="Halo 3 YouTube Page" width="500">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Check it out!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://notsteam.games/
